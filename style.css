@@ -177,15 +177,6 @@ body{
     -webkit-animation-iteration-count: infinite;
     -webkit-transform-origin: 50% 50%;
     -webkit-animation-timing-function: ease-in-out;
-    
-    /* offset-path: path('M0,97 C53.5716207,97 97,53.5716207 97,0 C97,-53.5716207 53.5716207,-97 0,-97 C-53.5716207,-97 -97,-53.5716207 -97,0 C-97,53.5716207 -53.5716207,97 0,97 Z'); */
-	/* position: center; */
-	/* animation: rotate 8s linear infinite; */
-	/* offset-distance: 200%; */
-    /* offset-path: path('M0,144 C79.529004,144 144,79.529004 144,0 C144,-79.529004 79.529004,-144 0,-144 C-79.529004,-144 -144,-79.529004 -144,0 C-144,79.529004 -79.529004,144 0,144 Z'); */
-	/* top: 110px; */
-	/* animation: rotate 20s linear infinite; */
-	/* left: 185px */
 }
 
 @keyframes animate {
@@ -194,10 +185,3 @@ body{
     90%, 10%{transform: rotate(50deg);}
     50%{transform: rotate(-50deg);}
 }
-
-/* @keyframes rotate { */
-	/* to { */
-		/* motion-offset: 100%; */
-		/* offset-distance: 100%; */
-	/* } */
-/* } */
